@@ -20,6 +20,9 @@
       html, body { background: #FBFBFB; color: #4E4E4E; }
       /* Ensure root occupies full height while loading */
       #root { min-height: 100vh; }
+  /* Critical hero styles: show a dark background immediately so hero doesn't flash white before the image/CSS loads */
+  .hero { background-color: #0b6668; }
+  .hero > .absolute { background-color: rgba(0,0,0,0.6); }
     </style>
     <script type="module" crossorigin src="/assets/index-CsQ0bkEV.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BEmU9avG.css">
