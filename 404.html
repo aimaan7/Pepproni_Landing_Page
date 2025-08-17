@@ -14,6 +14,13 @@
 
     <!-- Theme color for mobile browsers -->
     <meta name="theme-color" content="#2CBCC4" />
+    <!-- Prevent white flash before CSS loads -->
+    <style>
+      /* Match app's neutral background and text color to avoid white flash */
+      html, body { background: #FBFBFB; color: #4E4E4E; }
+      /* Ensure root occupies full height while loading */
+      #root { min-height: 100vh; }
+    </style>
     <script type="module" crossorigin src="/assets/index-CsQ0bkEV.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BEmU9avG.css">
   </head>
